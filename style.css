@@ -68,7 +68,7 @@ a {
 
 #right-side > div {
     flex: 1;
-    border: 1px solid #000;
+    
     padding-left: 5%;
     padding-top: 5%;
 }
@@ -83,5 +83,44 @@ a {
 
 #top-right > p {
     margin-bottom: 10%;
+}
+
+#middle-right {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    background-color: #FAF9F6;
+    box-shadow: 0 4px 3px -3px gray;
+}
+
+#middle-right > p {
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+
+form {
+    display: flex;
+    gap: 5%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.form-column {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 10%;
+}
+
+.form-column > div {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    max-width: 300px;
+}
+
+label {
+    font-size: .8rem;
+    font-weight: 400;
 }
 
