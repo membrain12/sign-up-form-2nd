@@ -69,4 +69,17 @@ a {
 #right-side > div {
     flex: 1;
     border: 1px solid #000;
+    padding-left: 5%;
+}
+
+#top-right {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    gap: 10%;
+    font-weight: bold;
+}
+
+#top-right > p {
+    margin-bottom: 10%;
 }
