@@ -100,7 +100,6 @@ a {
 
 form {
     display: flex;
-    gap: 5%;
     height: 100%;
     margin-bottom: 5%;
 }
@@ -124,3 +123,18 @@ label {
     font-weight: 400;
 }
 
+input {
+    border-radius: 4px;
+    border: 0.5px solid lightgrey
+}
+
+
+input:focus {
+    line-height: 1.5rem;
+    border: 0.5px solid blue;
+    outline: none;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    border: 0.5px solid red;
+}
