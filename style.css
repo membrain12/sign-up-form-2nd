@@ -53,9 +53,10 @@ img {
 #left-side > p{
     color: lightgrey;
     font-size: 0.75rem;
+    margin-bottom: 2%;
 }
 
-a {
+#left-side > p > a {
     color: lightgrey;
     font-size: 0.75rem;
 }
@@ -137,4 +138,30 @@ input:focus {
 
 input:not(:focus):not(:placeholder-shown):invalid {
     border: 0.5px solid red;
+}
+
+
+
+#bottom-right {
+    display: flex;
+    flex-flow: column;
+    gap: 10%;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 24px;
+    cursor: pointer;
+    width: 200px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+#bottom-right > p > a {
+    color: black;
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
 }
